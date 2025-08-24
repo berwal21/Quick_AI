@@ -1,4 +1,4 @@
-import { Edit, Sparkles } from "lucide-react";
+import { Edit, Sparkle } from "lucide-react";
 import React from "react";
 
 const WriteArticle = () => {
@@ -23,7 +23,7 @@ const WriteArticle = () => {
         className="w-full max-w-lg p-4 bg-white rounded-lg border border-gray-200"
       >
         <div className="flex items-center gap-3">
-          <Sparkles className="w-6 text-[#4A7AFF]" />
+          <Sparkle className="w-6 text-[#4A7AFF]" />
           <h1 className="text-xl font-semibold">Artilce Configuration</h1>
         </div>
         <p className="mt-6 text-sm font-medium">Artilce Topic</p>
