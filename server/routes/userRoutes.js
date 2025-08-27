@@ -4,7 +4,7 @@ import {
   getUserCreations,
   toggleLikeCreation,
 } from "../controllers/userController.js";
-import auth from "../middlewares/auth.js";
+import { auth } from "../middlewares/auth.js";
 
 const userrouter = express.Router();
 
