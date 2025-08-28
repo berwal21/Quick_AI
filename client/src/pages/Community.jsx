@@ -20,7 +20,7 @@ const Community = () => {
         headers: { Authorization: `Bearer ${await getToken()}` },
       });
       if (data.success) {
-        setCreations(data.creation);
+        setCreations(data.creations);
       } else {
         toast.error(data.message);
       }
