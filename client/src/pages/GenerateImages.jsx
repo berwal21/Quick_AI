@@ -1,7 +1,6 @@
 import React from "react";
 import { Image, Sparkles } from "lucide-react";
 import axios from "axios";
-import Markdown from "react-markdown";
 import { useAuth } from "@clerk/clerk-react";
 
 import toast from "react-hot-toast";
